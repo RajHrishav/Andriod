@@ -1,0 +1,6 @@
+=>array adapter se bina customization ke listView banane ke liye hm LayoutiNflatter ka use nhi karenge. 
+=>customization ke case me 
+		->ACtivity class ka obj banyenge
+		->jo v class arrayadpter ko extend karega us class ke constructor me sbse phle super() keyword ka use krke arrayadpter ko  data pass krwayenge.
+		->LayoutInFlatter ka obj banane ke liye ----context.getLayoutInflatter()----likhte h...yha context Activity class ka obj hai.
+		->infklate method ko call krte time ----------------inflate(R.layout.item,null,true)-----------

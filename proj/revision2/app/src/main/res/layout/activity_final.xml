@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Final">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="126dp"
+        android:layout_height="32dp"
+        android:text="thank you....."
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="235dp"
+        android:layout_height="70dp"
+        android:text="TextView"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="228dp"
+        android:layout_height="81dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="156dp" />
+</android.support.constraint.ConstraintLayout>

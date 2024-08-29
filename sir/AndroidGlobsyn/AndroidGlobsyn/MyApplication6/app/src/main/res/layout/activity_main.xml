@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+  <fragment
+  android:id="@+id/fragment_switch"
+  android:name="com.example.iccsolution.myapplication6.BlankFragment"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_marginLeft="5dp"
+  android:layout_marginRight="5dp"
+  android:layout_marginBottom="5dp" />
+-->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+    <Button
+        android:id="@+id/btnshowFrag1"
+        android:text="Show Frag 1"
+        android:onClick="Show_Frag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnshowFrag2"
+        android:text="Show Frag 2"
+        android:onClick="Show_Frag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </Button>
+
+  </LinearLayout>
+  <FrameLayout
+      android:id="@+id/myplace_holder"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  </FrameLayout>
+</LinearLayout>

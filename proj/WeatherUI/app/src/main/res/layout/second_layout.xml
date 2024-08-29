@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="38.40dp"
+    android:background="@color/colorBackground">
+
+    <AutoCompleteTextView
+        android:id=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Location for Weather Update"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:background="@color/colorBackground"
+        android:textColor="@color/colorWhite"
+        android:singleLine="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Example: Kolkata, Mumbai"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/colorWhite"/>
+    <Button
+        android:id="@+id/add_location_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorWhite"
+        android:text="Search Weather of Your Location"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For further details follow the link:"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/OpenWeatherMap"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

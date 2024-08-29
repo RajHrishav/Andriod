@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrnd"
+    tools:context=".SecondLastActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/img1"
+            android:layout_width="201dp"
+            android:layout_height="205dp"
+            android:background="@drawable/backgrnd"
+            android:onClick="goToDay1"
+
+            android:text="DAY 1" />
+
+        <Button
+            android:id="@+id/img2"
+            android:layout_width="201dp"
+            android:layout_height="205dp"
+            android:onClick="goToDay2"
+            android:background="@drawable/backgrnd"
+            android:text="DAY 2" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/img3"
+        android:layout_width="201dp"
+        android:layout_height="205dp"
+        android:text="DAY 3"
+        android:onClick="goToDay3"
+        android:background="@drawable/backgrnd"
+
+       />
+
+    <Button
+        android:id="@+id/img4"
+        android:layout_width="201dp"
+        android:layout_height="205dp"
+        android:text="DAY 4"
+        android:onClick="goToDay4"
+        android:background="@drawable/backgrnd"
+        />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/img5"
+        android:layout_width="382dp"
+        android:layout_height="95dp"
+        android:text="DAY 5"
+        android:onClick="goToDay5"
+        />
+</LinearLayout>
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrnd"
+    tools:context=".SecondLastActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 Days Weather Forecast"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/day1"
+            android:contextClickable="true"
+            android:padding="10dp"
+            android:onClick="goToDay1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 1"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/day2"
+            android:contextClickable="true"
+            android:padding="10dp"
+            android:onClick="goToDay2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 2"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/img2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/day3"
+            android:contextClickable="true"
+            android:padding="10dp"
+            android:onClick="goToDay3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 3"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/img3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/day4"
+            android:contextClickable="true"
+            android:padding="10dp"
+            android:onClick="goToDay4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 4"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/img4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/day5"
+            android:contextClickable="true"
+            android:onClick="goToDay5"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 5"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/img5"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

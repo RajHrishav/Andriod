@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp2"
+    android:orientation="vertical"
+    tools:context=".LastActivity">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtPlace"
+        android:layout_width="144dp"
+        android:layout_height="72dp"
+        android:text="Place"
+        android:textColor="@color/colorWhite"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgIcon"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/d" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="97dp">
+
+        <TextView
+            android:id="@+id/txtTemp"
+            android:layout_width="92dp"
+            android:layout_height="97dp"
+            android:text="Temp"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="270dp"
+            android:layout_height="97dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorWhite"
+            android:text="Description"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtHumidity"
+        android:layout_width="252dp"
+        android:layout_height="67dp"
+        android:text="Humidity"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtMinTemp"
+            android:layout_width="162dp"
+            android:layout_height="67dp"
+            android:text="MinTemp"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txtMaxTemp"
+            android:layout_width="162dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="60dp"
+            android:text="MaxTemp"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".dest">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="choose from cold drinks"
+        android:textColor="@color/inpcolor"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="154dp"
+        android:layout_height="198dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="107dp"
+        android:onClick="function1"
+        app:srcCompat="@drawable/cold1" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="113dp"
+        android:layout_height="201dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginBottom="205dp"
+        android:onClick="function2"
+        app:srcCompat="@drawable/cold2" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="162dp"
+        android:layout_height="185dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:onClick="function3"
+        app:srcCompat="@drawable/cold3" />
+
+    <TextView
+        android:id="@+id/lbldest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="427dp"
+        android:visibility="invisible"
+        android:text="" />
+</RelativeLayout>

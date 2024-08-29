@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ListView With Custom Adapter</string>
+
+    <string-array name="friends">
+        <item>Anubhav</item>
+        <item>Sonu</item>
+        <item>Mahinder</item>
+        <item>Anit</item>
+        <item>Raju</item>
+        <item>Rahul</item>
+        <item>Sonu</item>
+    </string-array>
+    <string-array name="molbile">
+        <item>1231</item>
+        <item>1232</item>
+        <item>1233</item>
+        <item>1234</item>
+        <item>1235</item>
+        <item>1236</item>
+        <item>1237</item>
+    </string-array>
+</resources>
